@@ -15,5 +15,4 @@ const Question = ({ question, options, handleAnswer }) => {
     </div>
   );
 };
-
 export default Question;
