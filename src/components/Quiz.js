@@ -4,7 +4,6 @@ import Question from './Question';
 import Timer from './Timer';
 import Score from './Score';
 import questions from '../data/questions';
-
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
